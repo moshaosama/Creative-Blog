@@ -3,7 +3,9 @@ import { Props } from "../interface";
 const Section = ({ Image, Title, Desc, Color, FlexRow }: Props) => {
   return (
     <>
-      <div className={`${Color === "black" ? `bg-white` : `bg-black`} py-6`}>
+      <div
+        className={`${Color === "black" ? `bg-white` : `bg-[#212529]`} py-6`}
+      >
         <div
           className={`flex ${FlexRow} justify-between items-center mx-72 max-sm:mx-0 max-sm:flex-col  my-10`}
         >
