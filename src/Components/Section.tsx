@@ -3,7 +3,7 @@ import { Props } from "../interface";
 const Section = ({ Image, Title, Desc, BackGround, Color, FlexRow }: Props) => {
   return (
     <>
-      <div className={`bg-${BackGround} py-6`}>
+      <div className={`bg-${BackGround == "white" ? "white" : "black"} py-6`}>
         <div
           className={`flex ${FlexRow} justify-between items-center mx-72 max-sm:mx-0 max-sm:flex-col  my-10`}
         >

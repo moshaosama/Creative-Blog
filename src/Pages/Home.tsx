@@ -54,7 +54,7 @@ const Home = () => {
         Desc={
           "Discipline is action or inaction that is regulated to be in accordance with a particular system of governance. Discipline is commonly applied to regulating human and animal behavior to its society or environment it belongs."
         }
-        BackGround="White"
+        BackGround="white"
         Color="black"
       />
     </div>
