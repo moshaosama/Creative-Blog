@@ -1,8 +1,5 @@
-interface Props {
-  Image: React.ReactNode;
-  Title: string;
-  Desc: string;
-}
+import { Props } from "../interface";
+
 
 const Cards = ({ Image, Title, Desc }: Props) => {
   return (

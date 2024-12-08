@@ -1,14 +1,16 @@
 import { IoPersonSharp } from "react-icons/io5";
 import Cards from "../Components/Cards";
-import Section from "../Components/Section";
+
 import Social from "../Components/Social";
 import { FaMapPin } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
+import WelcomeSection from "../Components/WelcomeSection";
+import Section from "../Components/Section";
 
 const Home = () => {
   return (
     <div>
-      <Section />
+      <WelcomeSection />
       <Social />
       <div className="flex max-sm:flex-col justify-between mx-72 max-sm:mx-0">
         <Cards
@@ -27,6 +29,34 @@ const Home = () => {
           Desc="Since the front end developer is the rock star of website/app development, they need to have a well-stocked personal toolbox."
         />
       </div>
+      <Section
+        Image={"05.png"}
+        Title={"Learn The Fundamentals"}
+        Desc={
+          "First, Learn CSS, JavaScript and HTML. These coding languages are the essential building blocks for web and app development, so you need to learn them.Then, Get Informed, Practice. And, Learn the Command Line, Learn Version Control, Enhance Your Skills, Take a Course."
+        }
+        BackGround="white"
+        // FlexRow="flex-row-reverse"
+      />
+      <Section
+        Image={"01.png"}
+        Title={"Stay Creative"}
+        Desc={
+          "Web front end development is one of the fields in IT that combines technical-analytic knowledge with creative skills. Aside from coding with CSS or JavaScript, front end developers are also often tasked to explore their visual arts capabilities, which is what digital design is all about. So, if you are planning to become a front end developer, you should add some creative sparkle to your knowledge base by integrating basic (digital) design skills."
+        }
+        BackGround="black"
+        FlexRow="flex-row-reverse"
+        Color="white"
+      />
+      <Section
+        Image={"04.png"}
+        Title={"Discipline"}
+        Desc={
+          "Discipline is action or inaction that is regulated to be in accordance with a particular system of governance. Discipline is commonly applied to regulating human and animal behavior to its society or environment it belongs."
+        }
+        BackGround="White"
+        Color="black"
+      />
     </div>
   );
 };
