@@ -35,7 +35,8 @@ const Home = () => {
         Desc={
           "First, Learn CSS, JavaScript and HTML. These coding languages are the essential building blocks for web and app development, so you need to learn them.Then, Get Informed, Practice. And, Learn the Command Line, Learn Version Control, Enhance Your Skills, Take a Course."
         }
-        BackGround="white"
+        Color="black"
+
         // FlexRow="flex-row-reverse"
       />
       <Section
@@ -44,7 +45,6 @@ const Home = () => {
         Desc={
           "Web front end development is one of the fields in IT that combines technical-analytic knowledge with creative skills. Aside from coding with CSS or JavaScript, front end developers are also often tasked to explore their visual arts capabilities, which is what digital design is all about. So, if you are planning to become a front end developer, you should add some creative sparkle to your knowledge base by integrating basic (digital) design skills."
         }
-        BackGround="black"
         FlexRow="flex-row-reverse"
         Color="white"
       />
@@ -54,7 +54,6 @@ const Home = () => {
         Desc={
           "Discipline is action or inaction that is regulated to be in accordance with a particular system of governance. Discipline is commonly applied to regulating human and animal behavior to its society or environment it belongs."
         }
-        BackGround="white"
         Color="black"
       />
     </div>
