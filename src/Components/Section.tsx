@@ -5,6 +5,7 @@ const Section = ({ Image, Title, Desc, Color, FlexRow }: Props) => {
     <>
       <div
         className={`${Color === "black" ? `bg-white` : `bg-[#212529]`} py-6`}
+        id="Learn"
       >
         <div
           className={`flex ${FlexRow} justify-between items-center mx-72 max-sm:mx-0 max-sm:flex-col  my-10`}

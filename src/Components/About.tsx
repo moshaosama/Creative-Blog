@@ -9,7 +9,10 @@ const About = () => {
   return (
     <>
       {/* this is About Section */}
-      <div className="my-28 h-[50pc] flex flex-col justify-center items-center">
+      <div
+        className="my-28 h-[50pc] flex flex-col justify-center items-center"
+        id="About"
+      >
         <h1 className="text-black text-3xl font-bold">About</h1>
 
         <div className="my-10 border-[#ddd] border-2 rounded-lg p-2">
