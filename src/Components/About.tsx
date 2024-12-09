@@ -18,7 +18,7 @@ const About = () => {
         <div className="my-10 border-[#ddd] border-2 rounded-lg p-2">
           <div>
             <img
-              src="WhatsApp Image 2024-10-20 at 21.44.22_3cca6ed1.jpg"
+              src="WhatsApp Image 2024-12-09 at 18.12.31_d5378d10.jpg"
               alt=""
               className="w-80 rounded-lg "
             />
