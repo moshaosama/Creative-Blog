@@ -15,7 +15,10 @@ const Footer = () => {
           className="absolute right-10 cursor-pointer "
           onClick={() => handleClick()}
         >
-          <FaArrowCircleUp className="text-blue-500 text-5xl hover:text-blue-400 max-sm:text-3xl cursor-pointer" />
+          <FaArrowCircleUp
+            className="text-blue-500 text-5xl hover:text-blue-400 max-sm:text-3xl cursor-pointer"
+            onClick={handleClick}
+          />
         </div>
       </div>
     </>
