@@ -1,7 +1,5 @@
 # Creative Blog Sigma
 
-![Project Screenshot](path_to_image.png)
-
 Creative Blog Sigma is a modern and interactive blog built using **React.js**. It offers an elegant user interface for reading and interacting with blog posts.
 
 You can view the live demo here: [Creative Blog Sigma - Live Demo](https://creative-blog-sigma.vercel.app/)
