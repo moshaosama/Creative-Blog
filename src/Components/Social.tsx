@@ -1,5 +1,6 @@
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import SocialLogo from "./SocialLogo";
 
 const Social = () => {
   function HandleClick(href: string) {
@@ -14,25 +15,38 @@ const Social = () => {
           </h1>
         </div>
         <div className="flex gap-5">
-          <FaFacebook
-            className="text-5xl text-white cursor-pointer"
-            onClick={() =>
+          <SocialLogo
+            Element={<FaFacebook />}
+            handleClick={async () =>
               HandleClick("https://www.facebook.com/mohamedosamakin/")
             }
+            textSize="5xl"
+            Color="white"
           />
-          <FaInstagram
-            className="text-5xl text-white cursor-pointer"
-            onClick={() =>
+          <SocialLogo
+            Element={<FaInstagram />}
+            handleClick={async () =>
               HandleClick("https://www.instagram.com/mo4a_fekry/?next=%2F")
             }
+            textSize="5xl"
+            Color="white"
           />
-          <FaGithub
-            className="text-5xl text-white cursor-pointer"
-            onClick={() => HandleClick("https://github.com/moshaosama")}
+
+          <SocialLogo
+            Element={<FaGithub />}
+            handleClick={async () =>
+              HandleClick("https://github.com/moshaosama")
+            }
+            textSize="5xl"
+            Color="white"
           />
-          <FaXTwitter
-            className="text-5xl text-white cursor-pointer"
-            onClick={() => HandleClick("https://x.com/mohamedosfekry")}
+          <SocialLogo
+            Element={<FaXTwitter />}
+            handleClick={async () =>
+              HandleClick("https://x.com/mohamedosfekry")
+            }
+            textSize="5xl"
+            Color="white"
           />
         </div>
       </div>
