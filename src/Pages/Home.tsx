@@ -7,6 +7,7 @@ import { GiSkills } from "react-icons/gi";
 import WelcomeSection from "../Components/WelcomeSection";
 import Section from "../Components/Section";
 import Question from "../Components/Question";
+import About from "../Components/About";
 
 const Home = () => {
   return (
@@ -59,6 +60,7 @@ const Home = () => {
           Color="black"
         />
         <Question />
+        <About />
       </div>
     </>
   );
