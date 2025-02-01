@@ -1,6 +1,6 @@
 const WelcomeSection = () => {
   return (
-    <div className="bg-[#212529]">
+    <div className="bg-[#212529] max-sm:flex max-sm:justify-center">
       <div className=" flex justify-between items-center mx-72 max-sm:mx-0">
         <div className="my-48 max-sm:my-20 flex flex-col gap-5">
           <h1 className="font-bold max-sm:font-normal text-4xl text-white max-sm:text-center">
