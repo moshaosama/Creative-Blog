@@ -3,7 +3,7 @@ const WelcomeSection = () => {
     <div className="bg-[#212529]">
       <div className=" flex justify-between items-center mx-72 max-sm:mx-0">
         <div className="my-48 max-sm:my-20 flex flex-col gap-5">
-          <h1 className="font-bold max-sm:font-normal text-4xl text-white text-center">
+          <h1 className="font-bold max-sm:font-normal text-4xl text-white max-sm:text-center">
             Welcome to <span className="text-[#ffc107]">Be Creative</span>
           </h1>
           <p className="text-white text-xl max-sm:text-lg max-sm:text-center">

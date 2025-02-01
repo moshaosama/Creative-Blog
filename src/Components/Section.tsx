@@ -14,7 +14,7 @@ const Section = ({ Image, Title, Desc, Color, FlexRow }: Props) => {
             <img src={Image} alt="Image.png" className="w-[100pc]" />
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 my-10">
             <h1
               className={`font-bold text-3xl text-${Color} max-sm:text-lg max-sm:text-center`}
             >
